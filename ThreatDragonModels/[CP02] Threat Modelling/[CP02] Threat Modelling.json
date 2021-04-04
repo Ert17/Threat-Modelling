@@ -238,7 +238,10 @@
               "id": "0869984d-02b5-469a-a534-3e4cd08dc83b",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.3894895137315659,
+                    "offset": -1.5395223155548596
+                  },
                   "attrs": {
                     "text": {
                       "text": "Queries",
@@ -355,6 +358,27 @@
               ],
               "id": "812422bb-975a-45a8-94f2-db8f122fdc90",
               "z": 11,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 289,
+                "y": 752
+              },
+              "target": {
+                "x": 595,
+                "y": 686
+              },
+              "vertices": [
+                {
+                  "x": 429,
+                  "y": 663
+                }
+              ],
+              "id": "30aa4c68-8578-49cd-89e7-4a3688cef27e",
+              "z": 12,
               "attrs": {}
             }
           ]
