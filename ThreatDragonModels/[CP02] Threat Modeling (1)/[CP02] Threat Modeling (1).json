@@ -917,7 +917,7 @@
               },
               "position": {
                 "x": 1120,
-                "y": 340
+                "y": 390
               },
               "angle": 0,
               "id": "755c8713-608e-47f6-92aa-946fdcc077db",
@@ -939,17 +939,12 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "b5b40977-a926-4c60-a4cb-ae0884577324"
+                "id": "193042c6-46ab-425e-9914-35457e44540d"
               },
               "target": {
                 "id": "755c8713-608e-47f6-92aa-946fdcc077db"
               },
-              "vertices": [
-                {
-                  "x": 1000,
-                  "y": 170
-                }
-              ],
+              "vertices": [],
               "id": "0f2feb6d-c40a-41cf-a491-8f09a8afe9cc",
               "labels": [
                 {
@@ -981,8 +976,8 @@
                 "height": 100
               },
               "position": {
-                "x": 1240,
-                "y": 90
+                "x": 1000,
+                "y": 610
               },
               "angle": 0,
               "id": "c8c8435e-45f0-4b06-8f61-f15ba8fb48fb",
@@ -1148,6 +1143,32 @@
                 },
                 ".connection": {
                   "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1090,
+                "y": 170
+              },
+              "angle": 0,
+              "id": "193042c6-46ab-425e-9914-35457e44540d",
+              "z": 38,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Logged On Internet\nUsers"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
                 }
               }
             }
