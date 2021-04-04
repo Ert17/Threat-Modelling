@@ -18,8 +18,8 @@
                 "height": 80
               },
               "position": {
-                "x": 298,
-                "y": 385
+                "x": 646,
+                "y": 735
               },
               "angle": 0,
               "id": "04afef53-adfb-426a-ba24-3b74e636ae94",
@@ -30,7 +30,33 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Database"
+                  "text": "Database Server"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 335,
+                "y": 740
+              },
+              "angle": 0,
+              "id": "50fa2ee6-0e6b-4c69-8da2-91ddf8b37c75",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Web Server"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -40,8 +66,8 @@
           ]
         },
         "size": {
-          "height": 590,
-          "width": 790
+          "height": 871,
+          "width": 806
         }
       }
     ]
