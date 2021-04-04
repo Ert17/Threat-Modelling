@@ -134,7 +134,10 @@
               "id": "fe246f0c-4cf4-4928-8d78-252fd1071ad4",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.6490081264617528,
+                    "offset": 0.7103996353741305
+                  },
                   "attrs": {
                     "text": {
                       "text": "Browse product\ncatalog",
@@ -146,7 +149,7 @@
               ],
               "z": 5,
               "hasOpenThreats": false,
-              "protocol": "",
+              "protocol": "HTML",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -174,7 +177,10 @@
               "id": "0ce1e33a-65cc-4e1a-98d6-2a8d47c3e413",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.6715856656437136,
+                    "offset": 18.553141903584834
+                  },
                   "attrs": {
                     "text": {
                       "text": "Submit search string",
@@ -186,6 +192,7 @@
               ],
               "z": 6,
               "hasOpenThreats": false,
+              "protocol": "HTML",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -209,8 +216,8 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.4925373664970974,
-                    "offset": 0.7508715644428814
+                    "distance": 0.5902729416266084,
+                    "offset": 1
                   },
                   "attrs": {
                     "text": {
@@ -223,7 +230,8 @@
               ],
               "z": 7,
               "hasOpenThreats": false,
-              "isEncrypted": false,
+              "isEncrypted": true,
+              "protocol": "SSL",
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -338,12 +346,12 @@
               "labels": [
                 {
                   "position": {
-                    "distance": 0.44835803467478985,
-                    "offset": -2.1956113231758345
+                    "distance": 0.42272148504240803,
+                    "offset": -19.996183329612183
                   },
                   "attrs": {
                     "text": {
-                      "text": "Request list of\nproducts",
+                      "text": "Request catalog\nlisting",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -375,6 +383,7 @@
               "id": "93e6a64f-f247-470d-9147-d3d65ad3a178",
               "z": 12,
               "hasOpenThreats": false,
+              "storesCredentials": true,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
@@ -391,7 +400,8 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "id": "93e6a64f-f247-470d-9147-d3d65ad3a178"
+                "x": 670,
+                "y": 990
               },
               "target": {
                 "id": "eadc136d-5be0-4b93-b766-43d7b7dff738"
@@ -472,7 +482,8 @@
                 "id": "eadc136d-5be0-4b93-b766-43d7b7dff738"
               },
               "target": {
-                "id": "93e6a64f-f247-470d-9147-d3d65ad3a178"
+                "x": 650,
+                "y": 990
               },
               "vertices": [
                 {
@@ -486,7 +497,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "Query list of products",
+                      "text": "Query catalog list",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -548,7 +559,10 @@
               "id": "90ebf214-d53a-401d-bbde-609420301cdc",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.48586548823812264,
+                    "offset": -17.88602157726274
+                  },
                   "attrs": {
                     "text": {
                       "text": "Display product\ncatalog",
@@ -650,10 +664,13 @@
               "id": "0ea80a6b-b3d4-4d34-afa5-13d20e637629",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.4654900976289319,
+                    "offset": -5.021459745474608
+                  },
                   "attrs": {
                     "text": {
-                      "text": "Send validated string",
+                      "text": "Send validated string\n(regex)",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -661,108 +678,6 @@
                 }
               ],
               "z": 22,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Store",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 120,
-                "y": 550
-              },
-              "angle": 0,
-              "id": "5278b2ee-a5fa-4758-b929-75e6d34b84e7",
-              "z": 23,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "Stored Procedure"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "5278b2ee-a5fa-4758-b929-75e6d34b84e7"
-              },
-              "target": {
-                "id": "84415ab9-ed2f-4efc-b511-b87e4fd857c0"
-              },
-              "vertices": [],
-              "id": "b6fa0fb9-a8b0-47a4-8074-a300247843ec",
-              "labels": [
-                {
-                  "position": 0.5,
-                  "attrs": {
-                    "text": {
-                      "text": "Return search result",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 24,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".marker-target": {
-                  "class": "marker-target hasNoOpenThreats isInScope"
-                },
-                ".connection": {
-                  "class": "connection hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Flow",
-              "smooth": true,
-              "source": {
-                "id": "3a841bd9-2686-427d-8508-4e885e2c8ecf"
-              },
-              "target": {
-                "id": "5278b2ee-a5fa-4758-b929-75e6d34b84e7"
-              },
-              "vertices": [
-                {
-                  "x": 350,
-                  "y": 600
-                }
-              ],
-              "id": "f2d7886f-585f-470f-b7cd-85931c76d92f",
-              "labels": [
-                {
-                  "position": {
-                    "distance": 0.3876151326974975,
-                    "offset": 3.8527290917532624
-                  },
-                  "attrs": {
-                    "text": {
-                      "text": "Call and pass search\nstring",
-                      "font-weight": "400",
-                      "font-size": "small"
-                    }
-                  }
-                }
-              ],
-              "z": 25,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
@@ -824,6 +739,7 @@
               ],
               "z": 27,
               "hasOpenThreats": false,
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -846,7 +762,10 @@
               "id": "97c485c6-8803-492f-b4b6-30b1c008d30c",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.2399772161967885,
+                    "offset": -12.86749005945573
+                  },
                   "attrs": {
                     "text": {
                       "text": "Pass user credentials",
@@ -858,6 +777,7 @@
               ],
               "z": 28,
               "hasOpenThreats": false,
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -878,14 +798,17 @@
               },
               "vertices": [
                 {
-                  "x": 460,
-                  "y": 860
+                  "x": 480,
+                  "y": 830
                 }
               ],
               "id": "9764fbbc-e9cf-4469-b665-97db06cd1d40",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.47343051447842616,
+                    "offset": 4.590466537647557
+                  },
                   "attrs": {
                     "text": {
                       "text": "Verify user\ncredentials for\nvalidity",
@@ -897,6 +820,7 @@
               ],
               "z": 29,
               "hasOpenThreats": false,
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -1008,8 +932,8 @@
               },
               "vertices": [
                 {
-                  "x": 970,
-                  "y": 580
+                  "x": 920,
+                  "y": 540
                 }
               ],
               "id": "0fae3673-26ac-4fcb-8cce-8fb409e4ad8d",
@@ -1018,7 +942,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "Call",
+                      "text": "Check User role",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1047,7 +971,7 @@
               },
               "vertices": [
                 {
-                  "x": 900,
+                  "x": 890,
                   "y": 640
                 }
               ],
@@ -1147,8 +1071,8 @@
                 "height": 100
               },
               "position": {
-                "x": 150,
-                "y": 720
+                "x": 270,
+                "y": 1020
               },
               "angle": 0,
               "id": "84415ab9-ed2f-4efc-b511-b87e4fd857c0",
@@ -1285,7 +1209,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "GetCustomer\nDetails Stored\nProcedure"
+                  "text": "GetCustomerD\netails stored\nprocedure"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -1377,8 +1301,8 @@
               "type": "tm.Boundary",
               "smooth": true,
               "source": {
-                "x": 460,
-                "y": 960
+                "x": 490,
+                "y": 1060
               },
               "target": {
                 "x": 850,
@@ -1386,7 +1310,7 @@
               },
               "vertices": [
                 {
-                  "x": 680,
+                  "x": 630,
                   "y": 930
                 }
               ],
@@ -1484,7 +1408,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Server Computer"
+                  "text": "Catalog Administrator"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -1504,7 +1428,10 @@
               "id": "2132eb1b-a498-4d4c-925e-20207ed0c914",
               "labels": [
                 {
-                  "position": 0.5,
+                  "position": {
+                    "distance": 0.47043216671830324,
+                    "offset": -1.7422963533046754
+                  },
                   "attrs": {
                     "text": {
                       "text": "Access",
@@ -1515,6 +1442,183 @@
                 }
               ],
               "z": 51,
+              "hasOpenThreats": false,
+              "isEncrypted": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 268,
+                "y": 317
+              },
+              "target": {
+                "x": 829,
+                "y": 273
+              },
+              "vertices": [
+                {
+                  "x": 520,
+                  "y": 210
+                }
+              ],
+              "id": "ffcc0754-4aca-4da5-beeb-3dfcfb907f24",
+              "z": 52,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 270,
+                "y": 810
+              },
+              "angle": 0,
+              "id": "bf90af21-b5ae-49d3-bf35-537e7be083c2",
+              "z": 53,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Stored\nProcedure"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "3a841bd9-2686-427d-8508-4e885e2c8ecf"
+              },
+              "target": {
+                "id": "bf90af21-b5ae-49d3-bf35-537e7be083c2"
+              },
+              "vertices": [
+                {
+                  "x": 330,
+                  "y": 760
+                }
+              ],
+              "id": "407fcf7e-8bfb-4fbb-9063-54224f53be04",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.5720256322294135,
+                    "offset": 3.0320471688989405
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Call and pass search\nstring",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 54,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 310,
+                "y": 910
+              },
+              "target": {
+                "x": 560,
+                "y": 1020
+              },
+              "vertices": [
+                {
+                  "x": 440,
+                  "y": 940
+                }
+              ],
+              "id": "e692128f-f4fc-49e8-8254-1525b1e43df6",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.36661818901668053,
+                    "offset": -5.4560124227568085
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Query search string",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 55,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 560,
+                "y": 1050
+              },
+              "target": {
+                "id": "84415ab9-ed2f-4efc-b511-b87e4fd857c0"
+              },
+              "vertices": [
+                {
+                  "x": 430,
+                  "y": 1010
+                }
+              ],
+              "id": "5237423b-4fe3-4c59-8913-3324c8cc8b1e",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.6651216465321411,
+                    "offset": 6.774850000711051
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Return search result",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 56,
               "hasOpenThreats": false,
               "attrs": {
                 ".marker-target": {
