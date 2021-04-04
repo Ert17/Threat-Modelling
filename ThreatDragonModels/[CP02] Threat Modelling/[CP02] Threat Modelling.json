@@ -96,8 +96,8 @@
                 "height": 100
               },
               "position": {
-                "x": 266,
-                "y": 469
+                "x": 293,
+                "y": 481
               },
               "angle": 0,
               "id": "156204d6-9833-40a5-93ab-aa5d5443b10a",
@@ -109,6 +109,32 @@
                 },
                 "text": {
                   "text": "Web\nApplication"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 68,
+                "y": 737
+              },
+              "angle": 0,
+              "id": "1f40ef90-8f81-471f-a4cf-3857f8b69c22",
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Web Application Config"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
