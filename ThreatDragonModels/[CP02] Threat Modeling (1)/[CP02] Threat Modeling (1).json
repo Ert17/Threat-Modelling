@@ -1434,7 +1434,7 @@
                   },
                   "attrs": {
                     "text": {
-                      "text": "Access",
+                      "text": "Access via server PC",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -1546,8 +1546,7 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "x": 310,
-                "y": 910
+                "id": "bf90af21-b5ae-49d3-bf35-537e7be083c2"
               },
               "target": {
                 "x": 560,
